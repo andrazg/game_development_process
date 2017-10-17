@@ -1,0 +1,97 @@
+UNIVERZA V LJUBLJANI 
+FAKULTETA ZA DRUŽBENE VEDE
+
+
+
+
+Andraž Gruden
+
+Proces razvoja video iger
+
+
+Diplomsko delo
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+Ljubljana, 2017
+UNIVERZA V LJUBLJANI 
+FAKULTETA ZA DRUŽBENE VEDE
+
+
+
+
+Andraž Gruden
+
+Mentor: prof. dr. Andrej Mrvar
+
+Proces razvoja video iger
+
+Diplomsko delo
+
+
+
+
+
+	
+
+
+
+
+
+Ljubljana, 2017
+Zahvala
+
+
+
+
+I Z J A V A   O   A V T O R S T V U
+diplomskega dela
+
+Spodaj podpisani/-a ?????, z vpisno številko ?????, sem avtor/-ica diplomskega dela z naslovom: ?????.
+S svojim podpisom zagotavljam, da:
+* je predloženo diplomsko delo izkljuèno rezultat mojega lastnega raziskovalnega dela;
+* sem poskrbel/-a, da so dela in mnenja drugih avtorjev oz. avtoric, ki jih uporabljam v predloženem delu, navedena oz. citirana v skladu s fakultetnimi navodili;
+* sem poskrbel/-a, da so vsa dela in mnenja drugih avtorjev oz. avtoric navedena v seznamu virov, ki je sestavni element predloženega dela in je zapisan v skladu s fakultetnimi navodili;
+* sem pridobil/-a vsa dovoljenja za uporabo avtorskih del, ki so v celoti prenesena v predloženo delo in sem to tudi jasno zapisal/-a v predloženem delu;
+* se zavedam, da je plagiatorstvo – predstavljanje tujih del, bodisi v obliki citata bodisi v obliki skoraj dobesednega parafraziranja bodisi v grafièni obliki, s katerim so tuje misli oz. ideje predstavljene kot moje lastne – kaznivo po zakonu (Zakon o avtorski in sorodnih pravicah (UL RS, št. 16/07-UPB3, 68/08, 85/10 Skl.US: U-I-191/09-7, Up-916/09-16)), prekršek pa podleže tudi ukrepom Fakultete za družbene vede v skladu z njenimi pravili;
+* se zavedam posledic, ki jih dokazano plagiatorstvo lahko predstavlja za predloženo delo in za moj status na Fakulteti za družbene vede;
+* je elektronska oblika identièna s tiskano obliko diplomskega dela ter soglašam z objavo diplomskega dela v zbirki »Dela FDV«;
+* je diplomsko delo lektorirano in urejeno skladno s fakultetnim Pravilnikom o diplomskem delu.
+
+V Ljubljani, dne ?????	Podpis avtorja/-ice:________________________
+1 UVOD
+Raèunalniška tehnologija je danes prisotna v domala vseh sferah družbenega življenja. Eskalacija tehnološkega razvoja je v zadnjih letih privedla do tega, da se je raèunalniška tehnologija iz laboratorijev preselila v naše domove in znašla v sleherni sredini našega socialnega življenja. Danes to tehnologijo uporabljamo za komuniciranje, naèrtovanje, sprejemanje odloèitev in ne nazadnje zabavo. Hedonièno dimenzijo uporabnosti raèunalniške tehnologije v prvi vrsti predstavljajo video igre. Igrajo se z namenom doživljanja novih izkušenj, pridobivanja obèutka dosežka, za interakcijo s prijatelji in družino in za preživljanje prostega èasa (Fullerton 2008, 1). Termin video igra se je skoval v dobi igralnih avtomatov in se usidral kasneje v svetu domaèih konzol. V terminologiji se je razlikovalo med raèunalniškimi igrami, ki so se igrale na osebnih raèunalnikih in video igrami na konzolah. Vse pa se je oznaèevalo za elektronske. Danes elektronske igre razumemo kot video igre ne glede na medij (Novak 2012, 5). Video igra je lahko ugankarska, figurinska ali kakršnakoli igra s katero lahko ravna avdiovizualna naprava (Esposito 2005). Glavna razlika med video igrami in ostalimi neelektronskimi predhodniki je kompleksnost in zmožnost avtomatizacije prvih (Esposito 2005).
+Struktura video iger pa se vseeno skriva v njihovih neelektronskih predhodnikih, igrah. Zavedati se moramo, da so video igre še vedno igre (Esposito 2005). Po Roger Cailloisu je igra namišljena, nepredvidljiva in neproduktivna aktivnost s pravili, èasovno in prostorsko omejitvijo brez obveznosti (Esposito 2005). Po Gregu Costikyanu je igra oblika umetnosti v kateri participanti, igralci sprejemajo odloèitve z namenom doseganja njenega cilja (Salen in Zimmerman 2004, 90). Oblikovalci iger bolj podrobno opišejo video igre kot zaprte formalne sisteme, ki vkljuèijo igralce v strukturiran konflikt reševanja negotovosti za doseganje razliènih izidov (Fullerton 2008, 43). Ti zaprti formalni sistemi subjektivno reprezentirajo del realnosti in so zato umetnost proizvajanja psihološke izkušnje konflikta in nevarnosti ob izkljuèevanju fiziène participacije (Salen in Zimmerman 2004, 89). Video igre tako ustvarijo subjektivno in namensko poenostavljeno reprezentacijo èustvene realnosti (Salen in Zimmerman 2004, 89). Poenostavljeno, video igre, lahko razumemo kot varen naèin podoživljanja realnosti (Salen in Zimmerman 2004, 90). Vse navedene terminološke razlage Zimmerman zedini v eno. Igra je prostovoljna interaktivna dejavnost, v kateri eden ali veè igralcev sledijo pravilom, ki omejujejo njihovo ravnanje in poustvarjajo umetni konflikt z namenom proizvajanja merljivega izida (Esposito 2005). 
+Igre lahko seciramo na elemente, ki tvorijo esenco iger. Igralci, cilj, procedure, pravila, viri, konflikt, omejitve in izid so ti elementi. Za preboj v svetu iger je skoraj gotovo potrebno preiti mejo teh elementov, ker pa tvorijo osnovne funkcije v tradicionalnih igralnih sistemih jih imenujemo formalni elementi (Fullerton 2008, 33). Ti so zelo pomembni koncepti, ker zagotavljajo osnovne strukture na podlagi katerih oblikovalci iger sprejemajo odloèitve med procesom oblikovanja in testiranja (Fullerton 2008, 33). Igralec je prostovoljni udeleženec, ki soustvarja in podoživlja zabavo (Fullerton 2008, 28). Da bi postali igralec moramo sprejeti pravila in omejitve igre (Fullerton 2008, 28). Naslednji element je cilj. Cilj razumemo kot namen igranja. Cilj je v igrah kljuèni element brez katerega igralna izkušnja izgubi na pomenu, ker je naša potreba po doseganju cilja merilo naše vpletenosti v igro (Fullerton 2008, 29). Procedure ali metode igranja so pomembne pri razlikovanju izkušenj od igranja klasiènih iger. Procedure vodijo obnašanje igralca in ustvarjajo interakcije katere se nikoli ne bi odvijale izven okvirjev igre. (Fullerton 2008, 29). Pravila definirajo igralne objekte, opisujejo naèela in omejijo obnašanja v igri (Fullerton 2008, 30). Koncepti pravil in procedur implicirajo avtoriteto katera ni izražena z nobeno osebo ali organom. Avtoritarnost pravil sloni na implicitnem sprejemanju igralcev, da se prepustijo izkušnji (Fullerton 2008, 30). Sprejemanje pravil igre je del kar avtor Bernard Suits imenuje ''lusory attitude''. To je stanje, ko igralec sprejme pravila v katerih mu je doseganje cilja preje oteženo kot olajšano (Fullerton 2008, 28). Viri so predmeti, ki so namensko ovrednoteni kot dragoceni in nam v igralnih svetovih postavljajo cilje (Fullerton 2008, 31). Konflikt je sestava pravil, procedur in okolišèin, ki igralcu onemogoèajo neposredno doseganje cilja (Fullerton 2008, 77). Omejitve so izražene z mejami, ki se lahko kažejo v tehniènih ali konceptualnih omejitvah (Fullerton 2008, 78). Igralci zaradi tehniènih omejitev denimo v 3d svetu ne morejo zapustiti sveta, ker jih omejuje arhitektura. Pri igranju pasjanse pa igralce omejuje koncept igre, ki jim ne dovoljuje drugega kot razvršèanje kart po velikosti (Fullerton 2008, 32). Kar ne morejo izbrisati, zamenjati ali postaviti na mesto drugo karto kot je to zasnovano v konceptu igre. Izid igre je navadno nejasen, saj tako vzdržuje zanimanje igralca in je doloèen na podlagi ciljev. Za veèina iger je zmaga ali poraz konèno stanje (Fullerton 2008,80). Organiziranje formalnih elementov v celoto razumemo kot proces izdelave igre. Obstajajo veè razliènih kombinacij elementov, ki vodijo v ustvarjanje razliènih igralnih izkušenj (Fullerton 2008, 81).
+
+
+Prihodki igrièarske industrije vztrajno rastejo in so leta 2007 dosegla 12,5 milijard dolarjev, kar je zasenèilo filmsko industrijo (Fullerton 2008, XIX). Od leta 2007 uporabniki s prihodom pametnega telefona iPhone uporabljajo funkcionalnosti osebnega raèunalnika v napravah velikosti žepa. V letu 2010 je bilo veè prodanih pametnih naprav kot osebnih raèunalnikov. V zadnjem èetrtletju je bilo poslanih 100.9 milijonov telefonov po svetu (L. Rakestraw, V. Eunni, in Kasuganti 2013, 2). S porastom prodaje teh naprav pa je sunkovito poskoèilo tudi povpraševanje po aplikacijah, igrah. Prenos mobilnih aplikacij raste letno za 92% (L. Rakestraw, V. Eunni, in Kasuganti 2013). Leta 2011 je bilo vsak teden izdanih 15.000 novih aplikacij. (L. Rakestraw, V. Eunni, in Kasuganti 2013, 2). Še leta 2009 je bil trg iOS in Android aplikacij ocenjen na 500 milijonov dolarjev. Dve leti kasneje pa so ocenili da je vrednost zrasla preko 1.9 milijarde dolarjev (L. Rakestraw, V. Eunni, in Kasuganti 2013, 4). V Evropi je bil trg mobilne industrije leta 2009 ocenjen na 1.5 milijarde dolarjev (L. Rakestraw, V. Eunni, in Kasuganti 2013, 16). Za leto 2016 tržni raziskovalec Newzoo je Evropi ocenil 23,5 milijarde dolarjev prihodka (Newzoo 2016). Igrièarska industrija je, danes starejša od 30 let, pa vendar so resne študije na temo razvoja iger stare le nekaj let (Esposito 2005). Združenje zabavne programske opreme (Entertainment Software Association -  ESA) je združenje, ki predstavlja interese igrièarske industrije, ki že od leta 2009 izdaja poroèila z naslovom Essential Facts (EF) z vsemi poslovnimi, demografskimi in uporabnimi podatki s tega podroèja. Vsako leto ESA anketira veè kot 4000 ameriških gospodinjstev (ESA 2017). Na podlagi EF za leto 2013 je industrija bila ocenjena na 21,3 milijarde dolarjev. Povpreèni igralec je bil star 31 let, povpreèni kupec pa 35 let (ESA 2017). Leta 2014 je bil prihodek 22,41 milijard dolarjev z povpreèno 35 let starimi igralci in 37 let tistimi, ki kupujejo igre (ESA 2017). Zadnje poroèilo ocenjuje prihodek na 30,4 milijarde dolarjev (ESA, 2017). Kot je razvidno iz poroèil prihodki iz industrije iger konstantno in vztrajno rastejo. Ko se je poslovni model prodaje iger iz klasiène prodaje preselil v digitalno so se prihodki velikih razvijalcev znatno poveèali (FOOL 2017). Industrija iger je nedvomno velika industrija, ki ustvarja visokokvalitetna delovna mesta. Na podlagi poroèila EY, je v Evropi zaposlenih 108,000 ljudi, ki ustvarijo preko 16 milijard evrov dobièka. (EY 2017). Tako postane toliko bolj mikavno za vlagatelje kot tudi za razvijalce, da usmerijo svoje moèi v razvoj iger.
+Proces razvoja video igre je kompleksna naloga. Igre so oblikovane s strani ekip izkušenih posameznikov, ki vkljuèujejo lahko veè visoko usposobljenih strokovnjakov z razliènih podroèij, raèunalništva, umetnosti, medijskega oblikovanja in poslovanja (O’Hagan, Coleman, in O’Connor 2014). Razvoj igre za namen izobraževanja pa vkljuèuje še strokovnjake za izobraževanje, sociologe in psihologe. Za naèrtovanje in upravljanje takšnih kompleksnih multidisciplinarnih projektov je potrebna metodologija, kjer ad hoc naèini upravljanja ne pridejo v poštev (Aslan in Balci 2015, 307). Kompleksnost iger je ekslirala. (Blow 2004).  
+V nekaterih primerih lahko projekt vkljuèuje tudi do tisoè ljudi in lahko traja veè let (Kanode in Haddad 2009). 
+
+Cilj oblikovalca iger je oblikovanje igranja in snovanje, oblikovanje pravil z namenom ustvariti izkušnjo za igralca (Salen in Zimmerman 2004, 23).
+Najbolj pomemben podatek pri igrah je, da so fokusirane na igranje (Esposito 2005).
+
+Pressman zagovarja, da so igre programska oprema, ki ponujajo zabavo (Ramadan in Widyani 2013, 95).
+
+
+
+Entertainment Software Association. Dostopno prek:  http://www.theesa.com/about-esa/essential-facts-computer-video-game-industry/ (17.10.2017).
+Entertainment Software Association. Dostopno prek: http://www.theesa.com/wp-content/uploads/2014/10/ESA_EF_2014.pdf (17.10.2017).
+Entertainment Software Association. Dostopno prek: http://www.theesa.com/wp-content/uploads/2015/04/ESA-Essential-Facts-2015.pdf (17.10.2017).
+Entertainment Software Association. Dostopno prek: http://www.theesa.com/wp-content/uploads/2016/04/Essential-Facts-2016.pdf (17.10.2017).
+Entertainment Software Association. Dostopno prek: http://www.theesa.com/wp-content/uploads/2017/04/EF2017_FinalDigital.pdf (17.10.2017).
+Ey. Dostopno prek: http://www.ey.com/Publication/vwLUAssets/Measuring_cultural_and_creative_markets_in_the_EU/$FILE/Creating-Growth.pdf (17.10.2017).
+Fool. Dostopno prek: https://www.fool.com/investing/2017/04/01/3-reasons-to-invest-in-video-game-stocks.aspx (17.10.2017).
+Newzoo. Dostopno prek: https://newzoo.com/insights/articles/global-games-market-reaches-99-6-billion-2016-mobile-generating-37/ (17.10.2017).
