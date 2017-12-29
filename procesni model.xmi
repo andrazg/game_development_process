@@ -1,0 +1,916 @@
+<?xml version = '1.0' encoding = 'UTF-8' ?>
+<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Fri Dec 29 10:35:20 CET 2017'>
+  <XMI.header>    <XMI.documentation>
+      <XMI.exporter>ArgoUML (using Netbeans XMI Writer version 1.0)</XMI.exporter>
+      <XMI.exporterVersion>0.34(6) revised on $Date: 2010-01-11 22:20:14 +0100 (Mon, 11 Jan 2010) $ </XMI.exporterVersion>
+    </XMI.documentation>
+    <XMI.metamodel xmi.name="UML" xmi.version="1.4"/></XMI.header>
+  <XMI.content>
+    <UML:Model xmi.id = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000096A'
+      name = 'PROCES RAZVOJA VIDEO IGER' isSpecification = 'false' isRoot = 'false'
+      isLeaf = 'false' isAbstract = 'false'>
+      <UML:Namespace.ownedElement>
+        <UML:StateMachine xmi.id = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000096D'
+          name = 'PROCES RAZVOJA VIDEO IGER' isSpecification = 'false'>
+          <UML:StateMachine.top>
+            <UML:CompositeState xmi.id = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000096E'
+              name = 'top' isSpecification = 'false' isConcurrent = 'false'>
+              <UML:CompositeState.subvertex>
+                <UML:Pseudostate xmi.id = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000973'
+                  name = 'ZAČETNO STANJE' isSpecification = 'false' kind = 'initial'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000976'/>
+                  </UML:StateVertex.outgoing>
+                </UML:Pseudostate>
+                <UML:SimpleState xmi.id = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000975'
+                  name = 'FORMALIZACIJA PROBLEMA' isSpecification = 'false'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009B8'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009BA'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097E'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009B8'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009BA'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000979'/>
+                  </UML:StateVertex.incoming>
+                  <UML:State.internalTransition>
+                    <UML:Transition xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009B8'
+                      isSpecification = 'false'>
+                      <UML:Transition.trigger>
+                        <UML:SignalEvent xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009B9'/>
+                      </UML:Transition.trigger>
+                      <UML:Transition.source>
+                        <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000975'/>
+                      </UML:Transition.source>
+                      <UML:Transition.target>
+                        <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000975'/>
+                      </UML:Transition.target>
+                    </UML:Transition>
+                    <UML:Transition xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009BA'
+                      isSpecification = 'false'>
+                      <UML:Transition.trigger>
+                        <UML:SignalEvent xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009B7'/>
+                      </UML:Transition.trigger>
+                      <UML:Transition.source>
+                        <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000975'/>
+                      </UML:Transition.source>
+                      <UML:Transition.target>
+                        <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000975'/>
+                      </UML:Transition.target>
+                    </UML:Transition>
+                  </UML:State.internalTransition>
+                </UML:SimpleState>
+                <UML:Pseudostate xmi.id = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000978'
+                  name = 'SE RAZVIJA UČNA IGRA?' isSpecification = 'false' kind = 'junction'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000979'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097C'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000976'/>
+                  </UML:StateVertex.incoming>
+                </UML:Pseudostate>
+                <UML:SimpleState xmi.id = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097B'
+                  name = 'RAZVOJ KONCEPTA' isSpecification = 'false'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009BB'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009BD'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009BF'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C8C'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009BB'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009BD'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009BF'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097C'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097E'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C9D'/>
+                  </UML:StateVertex.incoming>
+                  <UML:State.internalTransition>
+                    <UML:Transition xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009BB'
+                      isSpecification = 'false'>
+                      <UML:Transition.trigger>
+                        <UML:SignalEvent xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009BC'/>
+                      </UML:Transition.trigger>
+                      <UML:Transition.source>
+                        <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097B'/>
+                      </UML:Transition.source>
+                      <UML:Transition.target>
+                        <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097B'/>
+                      </UML:Transition.target>
+                    </UML:Transition>
+                    <UML:Transition xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009BD'
+                      isSpecification = 'false'>
+                      <UML:Transition.trigger>
+                        <UML:SignalEvent xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009BE'/>
+                      </UML:Transition.trigger>
+                      <UML:Transition.source>
+                        <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097B'/>
+                      </UML:Transition.source>
+                      <UML:Transition.target>
+                        <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097B'/>
+                      </UML:Transition.target>
+                    </UML:Transition>
+                    <UML:Transition xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009BF'
+                      isSpecification = 'false'>
+                      <UML:Transition.trigger>
+                        <UML:SignalEvent xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009C0'/>
+                      </UML:Transition.trigger>
+                      <UML:Transition.source>
+                        <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097B'/>
+                      </UML:Transition.source>
+                      <UML:Transition.target>
+                        <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097B'/>
+                      </UML:Transition.target>
+                    </UML:Transition>
+                  </UML:State.internalTransition>
+                </UML:SimpleState>
+                <UML:SimpleState xmi.id = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C8B'
+                  name = 'DOKAZ KONCEPTA' isSpecification = 'false'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000CB9'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C8C'/>
+                  </UML:StateVertex.incoming>
+                </UML:SimpleState>
+                <UML:Pseudostate xmi.id = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C8F'
+                  name = 'JE KONCEPT SPREJET?' isSpecification = 'false' kind = 'junction'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C9B'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C9D'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000CB9'/>
+                  </UML:StateVertex.incoming>
+                </UML:Pseudostate>
+                <UML:SimpleState xmi.id = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C9A'
+                  name = 'NAČRTOVANJE IGRE' isSpecification = 'false'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C9F'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C9B'/>
+                  </UML:StateVertex.incoming>
+                </UML:SimpleState>
+                <UML:SimpleState xmi.id = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C9E'
+                  name = 'DOKUMENTACIJA' isSpecification = 'false'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009CB'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009CC'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009CD'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009CE'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000CA1'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009CB'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009CC'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009CD'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009CE'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C9F'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009B4'/>
+                  </UML:StateVertex.incoming>
+                  <UML:State.internalTransition>
+                    <UML:Transition xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009CB'
+                      isSpecification = 'false'>
+                      <UML:Transition.trigger>
+                        <UML:SignalEvent xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009C2'/>
+                      </UML:Transition.trigger>
+                      <UML:Transition.source>
+                        <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C9E'/>
+                      </UML:Transition.source>
+                      <UML:Transition.target>
+                        <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C9E'/>
+                      </UML:Transition.target>
+                    </UML:Transition>
+                    <UML:Transition xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009CC'
+                      isSpecification = 'false'>
+                      <UML:Transition.trigger>
+                        <UML:SignalEvent xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009C4'/>
+                      </UML:Transition.trigger>
+                      <UML:Transition.source>
+                        <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C9E'/>
+                      </UML:Transition.source>
+                      <UML:Transition.target>
+                        <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C9E'/>
+                      </UML:Transition.target>
+                    </UML:Transition>
+                    <UML:Transition xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009CD'
+                      isSpecification = 'false'>
+                      <UML:Transition.trigger>
+                        <UML:SignalEvent xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009CA'/>
+                      </UML:Transition.trigger>
+                      <UML:Transition.source>
+                        <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C9E'/>
+                      </UML:Transition.source>
+                      <UML:Transition.target>
+                        <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C9E'/>
+                      </UML:Transition.target>
+                    </UML:Transition>
+                    <UML:Transition xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009CE'
+                      isSpecification = 'false'>
+                      <UML:Transition.trigger>
+                        <UML:SignalEvent xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009C8'/>
+                      </UML:Transition.trigger>
+                      <UML:Transition.source>
+                        <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C9E'/>
+                      </UML:Transition.source>
+                      <UML:Transition.target>
+                        <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C9E'/>
+                      </UML:Transition.target>
+                    </UML:Transition>
+                  </UML:State.internalTransition>
+                </UML:SimpleState>
+                <UML:SimpleState xmi.id = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000CA0'
+                  name = 'PROTOTIP / INKREMENT / IGRA' isSpecification = 'false'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009B5'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000CA1'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009BC'/>
+                  </UML:StateVertex.incoming>
+                </UML:SimpleState>
+                <UML:SimpleState xmi.id = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000CA2'
+                  name = 'EVALVACIJA' isSpecification = 'false'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4720292:1609eb2fbf5:-8000:0000000000000994'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009B5'/>
+                  </UML:StateVertex.incoming>
+                </UML:SimpleState>
+                <UML:SimpleState xmi.id = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000CA9'
+                  name = 'NAČRTOVANJE ITERACIJE' isSpecification = 'false'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009DB'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009DC'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009BB'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009DB'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009DC'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009B5'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB6'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000ABA'/>
+                  </UML:StateVertex.incoming>
+                  <UML:State.internalTransition>
+                    <UML:Transition xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009DB'
+                      isSpecification = 'false'>
+                      <UML:Transition.trigger>
+                        <UML:SignalEvent xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009DA'/>
+                      </UML:Transition.trigger>
+                      <UML:Transition.source>
+                        <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000CA9'/>
+                      </UML:Transition.source>
+                      <UML:Transition.target>
+                        <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000CA9'/>
+                      </UML:Transition.target>
+                    </UML:Transition>
+                    <UML:Transition xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009DC'
+                      isSpecification = 'false'>
+                      <UML:Transition.trigger>
+                        <UML:SignalEvent xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009DD'/>
+                      </UML:Transition.trigger>
+                      <UML:Transition.source>
+                        <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000CA9'/>
+                      </UML:Transition.source>
+                      <UML:Transition.target>
+                        <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000CA9'/>
+                      </UML:Transition.target>
+                    </UML:Transition>
+                  </UML:State.internalTransition>
+                </UML:SimpleState>
+                <UML:Pseudostate xmi.id = '-64--88-1-9-4720292:1609eb2fbf5:-8000:0000000000000993'
+                  name = 'ALI JE IGRA KONČANA?' isSpecification = 'false' kind = 'junction'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009A3'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AA9'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4720292:1609eb2fbf5:-8000:0000000000000994'/>
+                  </UML:StateVertex.incoming>
+                </UML:Pseudostate>
+                <UML:SimpleState xmi.id = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009A2'
+                  name = 'FAZE TESTIRANJA' isSpecification = 'false'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009CF'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009D1'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AA0'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009CF'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009D1'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009A3'/>
+                  </UML:StateVertex.incoming>
+                  <UML:State.internalTransition>
+                    <UML:Transition xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009CF'
+                      isSpecification = 'false'>
+                      <UML:Transition.trigger>
+                        <UML:SignalEvent xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009D0'/>
+                      </UML:Transition.trigger>
+                      <UML:Transition.source>
+                        <UML:SimpleState xmi.idref = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009A2'/>
+                      </UML:Transition.source>
+                      <UML:Transition.target>
+                        <UML:SimpleState xmi.idref = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009A2'/>
+                      </UML:Transition.target>
+                    </UML:Transition>
+                    <UML:Transition xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009D1'
+                      isSpecification = 'false'>
+                      <UML:Transition.trigger>
+                        <UML:SignalEvent xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009D2'/>
+                      </UML:Transition.trigger>
+                      <UML:Transition.source>
+                        <UML:SimpleState xmi.idref = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009A2'/>
+                      </UML:Transition.source>
+                      <UML:Transition.target>
+                        <UML:SimpleState xmi.idref = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009A2'/>
+                      </UML:Transition.target>
+                    </UML:Transition>
+                  </UML:State.internalTransition>
+                </UML:SimpleState>
+                <UML:SimpleState xmi.id = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009AA'
+                  name = 'BAZA DEFEKTOV' isSpecification = 'false'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB2'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AA1'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AAE'/>
+                  </UML:StateVertex.incoming>
+                </UML:SimpleState>
+                <UML:Pseudostate xmi.id = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009AB'
+                  name = 'JE POTREBNA POSODOBITEV DOKUMENTACIJE?' isSpecification = 'false'
+                  kind = 'junction'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009B4'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009B5'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AAA'/>
+                  </UML:StateVertex.incoming>
+                </UML:Pseudostate>
+                <UML:SimpleState xmi.id = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000A99'
+                  name = 'ZLATA' isSpecification = 'false'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB8'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AA6'/>
+                  </UML:StateVertex.incoming>
+                </UML:SimpleState>
+                <UML:Pseudostate xmi.id = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000A9F'
+                  name = 'ALI GRE IGRA V IZDAJO?' isSpecification = 'false' kind = 'junction'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AA1'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AA6'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AA0'/>
+                  </UML:StateVertex.incoming>
+                </UML:Pseudostate>
+                <UML:Pseudostate xmi.id = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AA8'
+                  name = 'VILICE' isSpecification = 'false' kind = 'fork'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AAA'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AAC'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AA9'/>
+                  </UML:StateVertex.incoming>
+                </UML:Pseudostate>
+                <UML:Pseudostate xmi.id = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AAB'
+                  name = 'ALI OBSTAJAJO DEFEKTI' isSpecification = 'false' kind = 'junction'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AAE'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB1'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AAC'/>
+                  </UML:StateVertex.incoming>
+                </UML:Pseudostate>
+                <UML:Pseudostate xmi.id = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB0'
+                  isSpecification = 'false' kind = 'join'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB4'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB1'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB2'/>
+                  </UML:StateVertex.incoming>
+                </UML:Pseudostate>
+                <UML:Pseudostate xmi.id = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB3'
+                  name = 'ALI GRE IGRA V IZDAJO?' isSpecification = 'false' kind = 'junction'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB6'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009A9'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB4'/>
+                  </UML:StateVertex.incoming>
+                </UML:Pseudostate>
+                <UML:Pseudostate xmi.id = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB7'
+                  name = 'ALI JE POTREBNA POSODOBITEV?' isSpecification = 'false' kind = 'junction'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000ABA'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009B4'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB8'/>
+                  </UML:StateVertex.incoming>
+                </UML:Pseudostate>
+                <UML:SimpleState xmi.id = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009AA'
+                  name = 'IZDAJA' isSpecification = 'false'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009AD'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009A9'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009B4'/>
+                  </UML:StateVertex.incoming>
+                </UML:SimpleState>
+                <UML:FinalState xmi.id = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009AC'
+                  name = 'IGRA IZDANA' isSpecification = 'false'>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009AD'/>
+                  </UML:StateVertex.incoming>
+                </UML:FinalState>
+                <UML:SimpleState xmi.id = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009BA'
+                  name = 'IZBIRA ORODJA' isSpecification = 'false'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009D9'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009BC'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009D9'/>
+                    <UML:Transition xmi.idref = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009BB'/>
+                  </UML:StateVertex.incoming>
+                  <UML:State.internalTransition>
+                    <UML:Transition xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009D9'
+                      isSpecification = 'false'>
+                      <UML:Transition.trigger>
+                        <UML:SignalEvent xmi.idref = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009DA'/>
+                      </UML:Transition.trigger>
+                      <UML:Transition.source>
+                        <UML:SimpleState xmi.idref = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009BA'/>
+                      </UML:Transition.source>
+                      <UML:Transition.target>
+                        <UML:SimpleState xmi.idref = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009BA'/>
+                      </UML:Transition.target>
+                    </UML:Transition>
+                  </UML:State.internalTransition>
+                </UML:SimpleState>
+              </UML:CompositeState.subvertex>
+            </UML:CompositeState>
+          </UML:StateMachine.top>
+          <UML:StateMachine.transitions>
+            <UML:Transition xmi.id = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000976'
+              isSpecification = 'false'>
+              <UML:Transition.trigger>
+                <UML:SignalEvent xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000977'/>
+              </UML:Transition.trigger>
+              <UML:Transition.source>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000973'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000978'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000979'
+              name = 'RAZVIJALI BOMO RESNO IGRO' isSpecification = 'false'>
+              <UML:Transition.trigger>
+                <UML:SignalEvent xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097A'/>
+              </UML:Transition.trigger>
+              <UML:Transition.source>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000978'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000975'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097C'
+              name = 'NE BOMO RAZVIJALI RESNE IGRE' isSpecification = 'false'>
+              <UML:Transition.trigger>
+                <UML:SignalEvent xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097D'/>
+              </UML:Transition.trigger>
+              <UML:Transition.source>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000978'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097B'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097E'
+              isSpecification = 'false'>
+              <UML:Transition.source>
+                <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000975'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097B'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C8C'
+              isSpecification = 'false'>
+              <UML:Transition.source>
+                <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097B'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C8B'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C9B'
+              name = 'KONCEPT JE SPREJET' isSpecification = 'false'>
+              <UML:Transition.trigger>
+                <UML:SignalEvent xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097A'/>
+              </UML:Transition.trigger>
+              <UML:Transition.source>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C8F'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C9A'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C9D'
+              name = 'KONCEPT NI SPREJET' isSpecification = 'false'>
+              <UML:Transition.trigger>
+                <UML:SignalEvent xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097D'/>
+              </UML:Transition.trigger>
+              <UML:Transition.source>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C8F'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097B'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C9F'
+              isSpecification = 'false'>
+              <UML:Transition.source>
+                <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C9A'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C9E'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000CA1'
+              isSpecification = 'false'>
+              <UML:Transition.source>
+                <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C9E'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000CA0'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000CB9'
+              isSpecification = 'false'>
+              <UML:Transition.trigger>
+                <UML:SignalEvent xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C91'/>
+              </UML:Transition.trigger>
+              <UML:Transition.source>
+                <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C8B'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C8F'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9-4720292:1609eb2fbf5:-8000:0000000000000994'
+              name = 'ALI JE IGRA KONČNA?' isSpecification = 'false'>
+              <UML:Transition.trigger>
+                <UML:SignalEvent xmi.idref = '-64--88-1-9-4720292:1609eb2fbf5:-8000:0000000000000999'/>
+              </UML:Transition.trigger>
+              <UML:Transition.source>
+                <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000CA2'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9-4720292:1609eb2fbf5:-8000:0000000000000993'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009A3'
+              name = 'IGRA JE KONČANA' isSpecification = 'false'>
+              <UML:Transition.trigger>
+                <UML:SignalEvent xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097A'/>
+              </UML:Transition.trigger>
+              <UML:Transition.source>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9-4720292:1609eb2fbf5:-8000:0000000000000993'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:SimpleState xmi.idref = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009A2'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009B4'
+              name = 'POTREBNA JE POSODOBITEV DOKUMENTACIJE' isSpecification = 'false'>
+              <UML:Transition.trigger>
+                <UML:SignalEvent xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097A'/>
+              </UML:Transition.trigger>
+              <UML:Transition.source>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009AB'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C9E'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009B5'
+              name = 'NI POTREBNA POSODOBITEV DOKUMENTACIJE' isSpecification = 'false'>
+              <UML:Transition.trigger>
+                <UML:SignalEvent xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097D'/>
+              </UML:Transition.trigger>
+              <UML:Transition.source>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009AB'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000CA9'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AA0'
+              name = 'ALI GRE IGRA V IZDAJO?' isSpecification = 'false'>
+              <UML:Transition.trigger>
+                <UML:SignalEvent xmi.idref = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009B0'/>
+              </UML:Transition.trigger>
+              <UML:Transition.source>
+                <UML:SimpleState xmi.idref = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009A2'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000A9F'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AA1'
+              name = 'IGRA NE GRE V IZDAJO' isSpecification = 'false'>
+              <UML:Transition.trigger>
+                <UML:SignalEvent xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097A'/>
+              </UML:Transition.trigger>
+              <UML:Transition.source>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000A9F'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:SimpleState xmi.idref = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009AA'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AA6'
+              name = 'IGRA GRE V IZDAJO' isSpecification = 'false'>
+              <UML:Transition.trigger>
+                <UML:SignalEvent xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AA7'/>
+              </UML:Transition.trigger>
+              <UML:Transition.source>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000A9F'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:SimpleState xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000A99'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AA9'
+              name = 'IGRA NI KONČANA' isSpecification = 'false'>
+              <UML:Transition.trigger>
+                <UML:SignalEvent xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097D'/>
+              </UML:Transition.trigger>
+              <UML:Transition.source>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9-4720292:1609eb2fbf5:-8000:0000000000000993'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AA8'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AAA'
+              name = 'ALI JE POTREBNA POSODOBITEV DOKUMENTACIJE?' isSpecification = 'false'>
+              <UML:Transition.trigger>
+                <UML:SignalEvent xmi.idref = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009B1'/>
+              </UML:Transition.trigger>
+              <UML:Transition.source>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AA8'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009AB'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AAC'
+              isSpecification = 'false'>
+              <UML:Transition.trigger>
+                <UML:SignalEvent xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AAD'/>
+              </UML:Transition.trigger>
+              <UML:Transition.source>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AA8'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AAB'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AAE'
+              name = 'SO DEFEKTI' isSpecification = 'false'>
+              <UML:Transition.trigger>
+                <UML:SignalEvent xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097A'/>
+              </UML:Transition.trigger>
+              <UML:Transition.source>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AAB'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:SimpleState xmi.idref = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009AA'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB1'
+              name = 'NI DEFEKTOV' isSpecification = 'false'>
+              <UML:Transition.trigger>
+                <UML:SignalEvent xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097D'/>
+              </UML:Transition.trigger>
+              <UML:Transition.source>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AAB'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB0'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB2'
+              isSpecification = 'false'>
+              <UML:Transition.source>
+                <UML:SimpleState xmi.idref = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009AA'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB0'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB4'
+              isSpecification = 'false'>
+              <UML:Transition.trigger>
+                <UML:SignalEvent xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB5'/>
+              </UML:Transition.trigger>
+              <UML:Transition.source>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB0'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB3'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB6'
+              name = 'IGRA NE GRE V IZDAJO' isSpecification = 'false'>
+              <UML:Transition.trigger>
+                <UML:SignalEvent xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097D'/>
+              </UML:Transition.trigger>
+              <UML:Transition.source>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB3'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000CA9'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB8'
+              name = 'ALI JE POTREBNA POSODOBITEV?' isSpecification = 'false'>
+              <UML:Transition.trigger>
+                <UML:SignalEvent xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB9'/>
+              </UML:Transition.trigger>
+              <UML:Transition.source>
+                <UML:SimpleState xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000A99'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB7'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000ABA'
+              name = 'POTEKA IZDELAVA NADGRADNJE' isSpecification = 'false'>
+              <UML:Transition.trigger>
+                <UML:SignalEvent xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097A'/>
+              </UML:Transition.trigger>
+              <UML:Transition.source>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB7'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000CA9'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009A9'
+              name = 'IGRA GRE V IZDAJO' isSpecification = 'false'>
+              <UML:Transition.trigger>
+                <UML:SignalEvent xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097A'/>
+              </UML:Transition.trigger>
+              <UML:Transition.source>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB3'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:SimpleState xmi.idref = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009AA'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009AD'
+              isSpecification = 'false'>
+              <UML:Transition.trigger>
+                <UML:SignalEvent xmi.idref = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009AE'/>
+              </UML:Transition.trigger>
+              <UML:Transition.source>
+                <UML:SimpleState xmi.idref = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009AA'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:FinalState xmi.idref = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009AC'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009B4'
+              name = 'NI NADGRADNJE' isSpecification = 'false'>
+              <UML:Transition.trigger>
+                <UML:SignalEvent xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097D'/>
+              </UML:Transition.trigger>
+              <UML:Transition.source>
+                <UML:Pseudostate xmi.idref = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB7'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:SimpleState xmi.idref = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009AA'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009B5'
+              isSpecification = 'false'>
+              <UML:Transition.source>
+                <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000CA0'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000CA2'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009BB'
+              isSpecification = 'false'>
+              <UML:Transition.source>
+                <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000CA9'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:SimpleState xmi.idref = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009BA'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009BC'
+              isSpecification = 'false'>
+              <UML:Transition.source>
+                <UML:SimpleState xmi.idref = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009BA'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:SimpleState xmi.idref = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000CA0'/>
+              </UML:Transition.target>
+            </UML:Transition>
+          </UML:StateMachine.transitions>
+        </UML:StateMachine>
+        <UML:SignalEvent xmi.id = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000977'
+          name = 'RESNA IGRA' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097A'
+          name = 'DA' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9--6947f630:1609d5f58f8:-8000:000000000000097D'
+          name = 'NE' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9--6947f630:1609d5f58f8:-8000:0000000000000C91'
+          name = 'SPREJETO' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9-7340c28e:1609ea15c15:-8000:000000000000098B'
+          name = 'RAZVOJ KONČAN' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9-4720292:1609eb2fbf5:-8000:0000000000000999'
+          name = 'IGRA KONČANA' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009A7'
+          name = 'NI DEFEKTOV' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009B0'
+          name = 'DEFEKT' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9-4720292:1609eb2fbf5:-8000:00000000000009B1'
+          name = 'DOKUMENTACIJA' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000A96'
+          name = 'TESTIRANJE' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000A98'
+          name = 'NEUSPEŠNO' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AA5'
+          name = 'USPEŠNO' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AA7'
+          name = 'NE' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AAD'
+          name = 'DEFEKTI' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB5'
+          name = 'V IZDAJO' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9-4089ffee:160a13bf695:-8000:0000000000000AB9'
+          name = 'POSODOBITEV' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9--1f969dda:160a159e0ee:-8000:00000000000009AE'
+          name = 'IGRA IZDANA' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009B1'
+          name = 'SPECIFIKACIJA UČNEGA PROBLEMA' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009B3'
+          name = 'IZDELAVA' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009B5'
+          name = 'SPECIFIKACIJE' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009B7'
+          name = 'UČNEGA PROBLEMA' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009B9'
+          name = 'IZDELAVA SPECIFIKACIJE' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009BC'
+          name = 'INICIALNA IDEJA' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009BE'
+          name = 'KONCEPT' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009C0'
+          name = 'PREDLOG IGRE' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009C2'
+          name = 'NAČRT IGRE' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009C4'
+          name = 'TEHNIČNI DOKUMENT' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009C8'
+          name = 'UMETNIŠKA BIBLIJA' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009CA'
+          name = 'NAČRT PROJEKTA' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009D0'
+          name = 'ALFA' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009D2'
+          name = 'BETA' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009D4'
+          name = 'AGILNO MODELIRANJE' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009D8'
+          name = 'METODA' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009DA'
+          name = 'AM' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-9--785b6229:160a191b409:-8000:00000000000009DD'
+          name = 'MDE' isSpecification = 'false'/>
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+  </XMI.content>
+</XMI>
