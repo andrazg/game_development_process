@@ -16,4 +16,4 @@
 *.~vsd*
 
 # ArgoUML files
-*.zargo*
+*.xmi*
